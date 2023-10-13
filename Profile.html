@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page - SocialBook</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/c1d02a8e15.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <a href="Index.html">
+            <img src="images/logo.png" alt="Logo" class="logo"> </a>
+
+            <ul>
+                <li> <img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" >
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profilepicture.jpg" alt="">
+            </div>
+        </div>
+
+<!-- --------Settings Menu---------- -->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profilepicture.jpg" alt="">
+                    <div>
+                        <p>Shivam Gupta</p>
+                        <a href="Profile.html">See your Profile</a>
+                        </div>
+            </div>
+    
+            <hr>
+    
+            <div class="user-profile">
+                <img src="images/feedback.png" alt="">
+                <div>
+                    <p>Give Feedback</p>
+                    <a href="#">Help us to improve the new design</a>
+                    </div>
+            </div>
+            <hr>
+
+            <div class="setting-links">
+                <img src="images/setting.png" class="settings-icon">
+                <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+            </div>
+            <div class="setting-links">
+                <img src="images/help.png" class="settings-icon">
+                <a href="#">Help & Support<img src="images/arrow.png" width="10px"></a>
+            </div>
+            <div class="setting-links">
+                <img src="images/display.png" class="settings-icon">
+                <a href="#">Display & Accessibility<img src="images/arrow.png" width="10px"></a>
+            </div>
+            <div class="setting-links">
+                <img src="images/logout.png" class="settings-icon">
+                <a href="#">Logout<img src="images/arrow.png" width="10px"></a>
+            </div>
+
+
+    </div>
+    </div>
+
+
+
+    </nav>
+
+    <!-- Profile Page -->
+
+    <div class="profile-container">
+        <img src="images/cover.jpg" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+
+                <div class="pd-row">
+                    <img src="images/profilepicture.jpg" class="pd-image">
+                    <div>
+                        <h3>Shivam Gupta</h3>
+                        <p>120 Friends - 20 mutual</p>
+                       
+                        <img src="images/Rajat.jpg">
+                        <img src="images/Ashish.jpg">
+                        <img src="images/Ankit.jpg">
+                        <img src="images/Rohit.jpg">
+                        
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="pd-right">
+
+                <button type="button"> <img src="images/add-friends.png" alt=""> Friends</button>
+                <button type="button"> <img src="images/message.png" alt=""> Message</button>
+                <br>
+                <a href=""><img src="images/more.png" alt=""></a>
+
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Hi, I am Shivam Gupta. <br> A passionate web developer from India. <img src="images/feeling.png" alt=""></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-home.png" alt="">Student at ABVGIET PRAGATINAGAR.</li>
+                        <li><img src="images/profile-study.png" alt="">Went to DAV SunderNagar.</li>
+                        <li><img src="images/profile-location.png" alt="">Lives in SunderNagar.</li>
+                        <li><img src="images/profile-job.png" alt="">Currently Persuing in Computer Sciences.</li>
+                    </ul>
+
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+
+                        <h3>Photos</h3>
+                        <a href="">All Photos</a>
+                    </div>
+                  
+                    <div class="photo-box">
+                        <div><img src="images/photo-1.jpg" alt=""></div>
+                        <div><img src="images/photo-2.jpg" alt=""></div>
+                        <div><img src="images/photo-3.jpg" alt=""></div>
+                        <div><img src="images/photo-4.jpg" alt=""></div>
+                        <div><img src="images/photo-5.jpg" alt=""></div>
+                        <div><img src="images/photo-6.jpg" alt=""></div>
+                        <div><img src="images/photo-7.jpg" alt=""></div>
+                        <div><img src="images/photo-8.jpg" alt=""></div>
+                        <div><img src="images/photo-9.jpg" alt=""></div>
+
+                    </div>
+                    </div>
+
+                    <div class="profile-intro">
+                        <div class="title-box">
+    
+                            <h3>Friends</h3>
+                            <a href="">All Friends</a>
+                        </div>
+                        <p>120 (10 mutual)</p>
+                        <div class="friends-box">
+                            <div><img src="images/Jatin.jpg" alt=""><p>Jatin</p></div>
+                            <div><img src="images/Palak.jpg" alt=""><p>Palak</p></div>
+                            <div><img src="images/Ankit.jpg" alt=""><p>Ankit</p></div>
+                            <div><img src="images/Karan.jpg" alt=""><p>Karan</p></div>
+                            <div><img src="images/Rajat.jpg" alt=""><p>Rajat</p></div>
+                            <div><img src="images/Ashish.jpg" alt=""><p>Ashish</p></div>
+                            <div><img src="images/Kriti.jpg" alt=""><p>Kriti</p></div>
+                            <div><img src="images/Shagun.jpg" alt=""><p>Shagun</p></div>
+                            <div><img src="images/Rohit.jpg" alt=""><p>Rohit</p></div>
+    
+                        </div>
+                        </div>
+               
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profilepicture.jpg" alt="">
+                        <div>
+                            
+                                <p>Shivam Gupta</p>
+                                <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                            
+                        </div>
+                    </div>
+
+                    <div class="post-input-container">
+                        <textarea  rows="3" placeholder="What's on Your Mind, Shivam?"></textarea>
+                            <div class="add-post-links">
+                                <a href="#"><img src="images/live-video.png" >Live Video</a>
+                                <a href="#"><img src="images/photo.png" >Photo/video</a>
+                                <a href="#"><img src="images/feeling.png" >Feeling/Activity</a>
+                            </div>
+                            
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                      <div class="user-profile">
+                          <img src="images/profilepicture.jpg" alt="">
+                          <div>
+                              
+                                  <p>Shivam Gupta</p>
+                              <span>September 24 2023, 11:28 PM</span>    
+                              
+                          </div>
+                      </div>
+                      <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+  
+                    </div>
+                    
+                    
+                     
+  
+                      <p class="post-text">Check out my <span><a href="https://github.com/ShivamGupta-yo">Repositories</a></span> to know about my projects
+                          <a href="#">#foryou</a>
+                          <a href="#">#explore</a></p>
+                          <img src="images/feed-image-1.png" class="post-img" >
+  
+                          <div class="post-row">
+                              
+                              <div class="activity-icons">
+                                  <div><img src="images/like.png" alt="">120</div>
+                                  <div><img src="images/comments.png" alt="">69</div>
+                                  <div><img src="images/share.png" alt="">100</div>
+                              </div>
+                              
+                              
+                              <div class="post-profile-icon">
+                                  <img src="images/profilepicture.jpg"> <i class="fa-solid fa-caret-down"></i>
+                              </div>
+                          </div>
+                  </div>
+  
+                  <div class="post-container">
+                      <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/Jatin.jpg" alt="">
+                            <div>
+                                
+                                    <p>Jatin</p>
+                                <span>September 15 2023, 16:29 PM</span>    
+                                
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+    
+                      </div>
+                      
+                      
+                       
+    
+                        <p class="post-text">Iam a Photographer haha XD    <a href="#">#photography</a>
+                            <a href="#">#explore</a></p>
+                            <img src="images/feed-image-2.png" class="post-img" >
+    
+                            <div class="post-row">
+                                
+                                <div class="activity-icons">
+                                    <div><img src="images/like-blue.png" alt="">100</div>
+                                    <div><img src="images/comments.png" alt="">54</div>
+                                    <div><img src="images/share.png" alt="">30</div>
+                                </div>
+                                
+                                
+                                <div class="post-profile-icon">
+                                    <img src="images/Jatin.jpg"> <i class="fa-solid fa-caret-down"></i>
+                                </div>
+                            </div>
+                    </div>
+  
+  
+                    <div class="post-container">
+                      <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/Palak.jpg" alt="">
+                            <div>
+                                
+                                    <p>Palak Bharti</p>
+                                <span>March 15 2023, 10:00 AM</span>    
+                                
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+    
+                      </div>
+                      
+                      
+                       
+    
+                        <p class="post-text">H&M me gye or photo kheench ke wapis aa gye &#128514;<a href="#">#funny</a>
+                            <a href="#">#friend</a></p>
+                            <img src="images/feed-image-3.png" class="post-img" >
+    
+                            <div class="post-row">
+                                
+                                <div class="activity-icons">
+                                    <div><img src="images/like-blue.png" alt="">234</div>
+                                    <div><img src="images/comments.png" alt="">80</div>
+                                    <div><img src="images/share.png" alt="">67</div>
+                                </div>
+                                
+                                
+                                <div class="post-profile-icon">
+                                    <img src="images/Palak.jpg"> <i class="fa-solid fa-caret-down"></i>
+                                </div>
+                            </div>
+                    </div>
+                  
+                  
+                  
+                    <div class="post-container">
+                      <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/Rajat.jpg" alt="">
+                            <div>
+                                
+                                    <p>RS7220</p>
+                                <span>January 5 2023, 12:00 PM</span>    
+                                
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+    
+                      </div>
+                      
+                      
+                       
+    
+                        <p class="post-text">Us Talking About our Future &#128064; &#129315;<a href="#">#funny</a>
+                            <a href="#">#brother</a></p>
+                            <img src="images/feed-image-4.png" class="post-img" >
+    
+                            <div class="post-row">
+                                
+                                <div class="activity-icons">
+                                    <div><img src="images/like-blue.png" alt="">324</div>
+                                    <div><img src="images/comments.png" alt="">200</div>
+                                    <div><img src="images/share.png" alt="">167</div>
+                                </div>
+                                
+                                
+                                <div class="post-profile-icon">
+                                    <img src="images/Rajat.jpg"> <i class="fa-solid fa-caret-down"></i>
+                                </div>
+                            </div>
+                    </div>
+  
+  
+                    <div class="post-container">
+                      <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/Ankit.jpg" alt="">
+                            <div>
+                                
+                                    <p>Ankit Sharma</p>
+                                <span>August 23 2023, 09:00 AM</span>    
+                                
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+    
+                      </div>
+                      
+                      
+                       
+    
+                        <p class="post-text">Har Har Mahadev &#128591; &#x1F64F;<a href="#">#Good Morning</a>
+                            <a href="#">#God</a></p>
+                            <img src="images/feed-image-5.png" class="post-img" >
+    
+                            <div class="post-row">
+                                
+                                <div class="activity-icons">
+                                    <div><img src="images/like-blue.png" alt="">2004</div>
+                                    <div><img src="images/comments.png" alt="">1991</div>
+                                    <div><img src="images/share.png" alt="">1667</div>
+                                </div>
+                                
+                                
+                                <div class="post-profile-icon">
+                                    <img src="images/Ankit.jpg"> <i class="fa-solid fa-caret-down"></i>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+        </div>
+
+        
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+   
+   
+
+<div class="footer">
+    <p>© Copyright 2023 - Shivam Gupta</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
